@@ -1,0 +1,54 @@
+0000000000000000000000000000000000000000 0e7318742579caf2e6d44769b76878b368cd955f unknown <Gabriel@Gabriel.(none)> 1408746547 +0300	clone: from git@github.com:eshopr/factory.git
+0e7318742579caf2e6d44769b76878b368cd955f f6d264a0521dda439e8286d3e2bbed5129ceca37 Not Cookied Workshop <eshoprworkshop@gmail.com> 1408811767 +0300	commit: flot plot added, graphs module created
+f6d264a0521dda439e8286d3e2bbed5129ceca37 06c7ed390c6d8500e15f1f4e2fbad24266f7a42b Not Cookied Workshop <eshoprworkshop@gmail.com> 1408814074 +0300	commit: data displayed by directory
+06c7ed390c6d8500e15f1f4e2fbad24266f7a42b c56d8e28e0cceb989c920cc9163088342d0af771 Not Cookied Workshop <eshoprworkshop@gmail.com> 1408952016 +0300	commit: some data modeling displayed in view
+c56d8e28e0cceb989c920cc9163088342d0af771 2dbc74f9aec1b7e7df53729f04270c5adbeb7ada Not Cookied Workshop <eshoprworkshop@gmail.com> 1408955213 +0300	commit: displaying api data in a meaningful way
+2dbc74f9aec1b7e7df53729f04270c5adbeb7ada 2d229eedd2718a03cce57149c83f6d59964f4c2c Not Cookied Workshop <eshoprworkshop@gmail.com> 1408959330 +0300	commit: it's a graph, sort of
+2d229eedd2718a03cce57149c83f6d59964f4c2c 405a388d0e4f11b27dce20bffb54f33a11453592 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409047725 +0300	commit: pure angular graphs
+405a388d0e4f11b27dce20bffb54f33a11453592 f8c5608826b1bb69f913d1437c2352a373546cda Not Cookied Workshop <eshoprworkshop@gmail.com> 1409119896 +0300	commit: finally understanding node module pattern
+f8c5608826b1bb69f913d1437c2352a373546cda bdcf6eeb47c16627d5dabf53ad78b97bc3bbf727 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409121795 +0300	commit: api route defined in module
+bdcf6eeb47c16627d5dabf53ad78b97bc3bbf727 84c60d817c0ff834ebb416501108ee7da70c88ca Not Cookied Workshop <eshoprworkshop@gmail.com> 1409142597 +0300	commit: makes call authorization refused
+84c60d817c0ff834ebb416501108ee7da70c88ca 97868c3ee766d46bd870ed3dfb55f8ee6be3c262 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409151288 +0300	commit: Recursion Blog Tutorial
+97868c3ee766d46bd870ed3dfb55f8ee6be3c262 97868c3ee766d46bd870ed3dfb55f8ee6be3c262 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409151319 +0300	checkout: moving from master to blog
+97868c3ee766d46bd870ed3dfb55f8ee6be3c262 a4365111eacaf5386196dfa871173f45320b76d8 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409156678 +0300	commit: directives as partials
+a4365111eacaf5386196dfa871173f45320b76d8 ca252cd2494e779b6ba3644df5e67e4a78479bfe Not Cookied Workshop <eshoprworkshop@gmail.com> 1409160400 +0300	commit: some messy nested views
+ca252cd2494e779b6ba3644df5e67e4a78479bfe 9e703d0b711cb2d53b632e9d9b3c9c247d604483 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409161020 +0300	commit: sidebar module in place
+9e703d0b711cb2d53b632e9d9b3c9c247d604483 7752f01639b87362454b33de4a1011e575e60a7e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409164795 +0300	commit: no way, it actually worked
+7752f01639b87362454b33de4a1011e575e60a7e d1aec825e943053d03ebc89b9cc2262eaba24107 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409167736 +0300	commit: refactor of ingredient model
+d1aec825e943053d03ebc89b9cc2262eaba24107 659421e617cb8658ec19094b13e74c99342e5566 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409171557 +0300	commit: bootstrapped blog crud
+659421e617cb8658ec19094b13e74c99342e5566 05063ded740d69bef7c965dde9a4ffe732152220 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409220836 +0300	commit: post add, and display on frontend
+05063ded740d69bef7c965dde9a4ffe732152220 9a82103d1ba4702a90d6f01f4fbc57a265c62408 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409231550 +0300	commit: some basic style
+9a82103d1ba4702a90d6f01f4fbc57a265c62408 9a82103d1ba4702a90d6f01f4fbc57a265c62408 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409233191 +0300	checkout: moving from blog to shop
+9a82103d1ba4702a90d6f01f4fbc57a265c62408 185971dc91df5ecb74c3bfbdc87b06e9564b3e75 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409237188 +0300	commit: simpleCart.js checkout functionality added
+185971dc91df5ecb74c3bfbdc87b06e9564b3e75 f9a73fb8991b66968d3c524cfe6c3e5eedd6c246 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409266988 +0300	commit: debugging for beginners
+f9a73fb8991b66968d3c524cfe6c3e5eedd6c246 2542cd2f0e79646ca76ec867fb5f3362cd702ac2 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409267726 +0300	commit: unsecure file downloads
+2542cd2f0e79646ca76ec867fb5f3362cd702ac2 f419ded1f717f8d824144582f5e17d480f18aa8d Not Cookied Workshop <eshoprworkshop@gmail.com> 1409323477 +0300	commit: this is a commit message
+f419ded1f717f8d824144582f5e17d480f18aa8d 1831796e758cd3d4cccc164fda65ac1b1eaaba55 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409325380 +0300	commit: contact model added
+1831796e758cd3d4cccc164fda65ac1b1eaaba55 7cee01c15723843cb356cb53a8851b7adb6fad57 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409329295 +0300	commit: orders routing done
+7cee01c15723843cb356cb53a8851b7adb6fad57 4f2ddcdee7cc7bf91928a9c0b88b632374b1569c Not Cookied Workshop <eshoprworkshop@gmail.com> 1409329788 +0300	commit: orderController instantiated
+4f2ddcdee7cc7bf91928a9c0b88b632374b1569c 6d9d4f34921d48e3906828ca87937707afcf5c9e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409331793 +0300	commit: contact form added
+6d9d4f34921d48e3906828ca87937707afcf5c9e bfdc277bb14ff874e918fb813abce4b041944ce9 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409397435 +0300	commit: rework of user model
+bfdc277bb14ff874e918fb813abce4b041944ce9 1b1a90a24b204f85a0753bb056e0ac678f33ed7e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409412920 +0300	commit: totally hacky method to pass simplecart data to cookie
+1b1a90a24b204f85a0753bb056e0ac678f33ed7e c2a590451dd5fd1d76ca581376b086c230428c20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409417325 +0300	commit: pass downloads array from checkout to success page
+c2a590451dd5fd1d76ca581376b086c230428c20 cb70c1e41fde8e4f16225da6f1f154e284f4cd18 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409422991 +0300	commit: getting functional i think
+cb70c1e41fde8e4f16225da6f1f154e284f4cd18 1fde2bf1a1f5653fbe71c77c7b3617b98a0a9b57 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409427669 +0300	commit: download link logic
+1fde2bf1a1f5653fbe71c77c7b3617b98a0a9b57 6b0b0cac902f44edc25b6aec59af9347c41f953a Not Cookied Workshop <eshoprworkshop@gmail.com> 1409433606 +0300	commit: frontend works
+6b0b0cac902f44edc25b6aec59af9347c41f953a 7031eba4ad4ce49eceef68c6c8c7c64ebb422253 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409446956 +0300	commit: bug fixes
+7031eba4ad4ce49eceef68c6c8c7c64ebb422253 b3eb9fd9430216273fff875dfae36cdee4d04b20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409509155 +0300	commit: gitignore test
+b3eb9fd9430216273fff875dfae36cdee4d04b20 b3eb9fd9430216273fff875dfae36cdee4d04b20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409565024 +0300	checkout: moving from shop to orm
+b3eb9fd9430216273fff875dfae36cdee4d04b20 b3eb9fd9430216273fff875dfae36cdee4d04b20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409567917 +0300	checkout: moving from orm to shop
+b3eb9fd9430216273fff875dfae36cdee4d04b20 b3eb9fd9430216273fff875dfae36cdee4d04b20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409567950 +0300	checkout: moving from shop to orm
+b3eb9fd9430216273fff875dfae36cdee4d04b20 aaa825435273395b2100617bb4ccfda60ac74e97 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409573799 +0300	commit: param url routing
+aaa825435273395b2100617bb4ccfda60ac74e97 697dc20b60293ac2a4f7ecf61145fed2c560ab3d Not Cookied Workshop <eshoprworkshop@gmail.com> 1409573832 +0300	commit: param url routing
+697dc20b60293ac2a4f7ecf61145fed2c560ab3d 39fb8e83e7cbfee34aac7f51e07dc78f42f5b34e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409575722 +0300	commit: routing attached to sidebar links
+39fb8e83e7cbfee34aac7f51e07dc78f42f5b34e 0331de6242b0207b9194f58b248f3b2a5d70b17f Not Cookied Workshop <eshoprworkshop@gmail.com> 1409576214 +0300	commit: deeper nesting of ui views for flexibility of presentation and more scalable architecture
+0331de6242b0207b9194f58b248f3b2a5d70b17f b5ee95d9b90db3b72bacd02384f78e40f3170ab3 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409577397 +0300	commit: further scoping of controllers
+b5ee95d9b90db3b72bacd02384f78e40f3170ab3 1a2fedcbec7e5ee4bc108380da3751bc5dfc73b2 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409583488 +0300	commit: something works
+1a2fedcbec7e5ee4bc108380da3751bc5dfc73b2 7f17e709763c64ba070cd8da91ba7b5471d450c2 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409585233 +0300	commit: some ui output for weather directive
+7f17e709763c64ba070cd8da91ba7b5471d450c2 af428713c9b14ee688478131189f7689bd4da275 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409587286 +0300	commit: weather directive included on page
+af428713c9b14ee688478131189f7689bd4da275 64b4da11fbe987f6e0614d5efda0c87a2bc72fd1 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409587975 +0300	commit: actually did lose it, remanufactured
+64b4da11fbe987f6e0614d5efda0c87a2bc72fd1 026ddde27869f05f43aaf2fa1ebe8423ef7d77a0 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409594196 +0300	commit: this is a good commit
+026ddde27869f05f43aaf2fa1ebe8423ef7d77a0 65f66a854e3a83a18be7fbd6a6b3793592aba422 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409597795 +0300	commit: yet another commit message
+65f66a854e3a83a18be7fbd6a6b3793592aba422 a23a80b0421e35e1fd4545cec16916644ad16f43 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409609762 +0300	commit: listings work
+a23a80b0421e35e1fd4545cec16916644ad16f43 d16f682786f90a5e0d57ac34fb77c542027dc83c Not Cookied Workshop <eshoprworkshop@gmail.com> 1409655585 +0300	commit: almost works
+d16f682786f90a5e0d57ac34fb77c542027dc83c cc8a5d5627980b1d80cc85a512d6be2adc8be53c Not Cookied Workshop <eshoprworkshop@gmail.com> 1409656194 +0300	commit: this is cool

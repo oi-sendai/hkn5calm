@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 97868c3ee766d46bd870ed3dfb55f8ee6be3c262 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409151319 +0300	branch: Created from HEAD
+97868c3ee766d46bd870ed3dfb55f8ee6be3c262 a4365111eacaf5386196dfa871173f45320b76d8 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409156678 +0300	commit: directives as partials
+a4365111eacaf5386196dfa871173f45320b76d8 ca252cd2494e779b6ba3644df5e67e4a78479bfe Not Cookied Workshop <eshoprworkshop@gmail.com> 1409160400 +0300	commit: some messy nested views
+ca252cd2494e779b6ba3644df5e67e4a78479bfe 9e703d0b711cb2d53b632e9d9b3c9c247d604483 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409161020 +0300	commit: sidebar module in place
+9e703d0b711cb2d53b632e9d9b3c9c247d604483 7752f01639b87362454b33de4a1011e575e60a7e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409164795 +0300	commit: no way, it actually worked
+7752f01639b87362454b33de4a1011e575e60a7e d1aec825e943053d03ebc89b9cc2262eaba24107 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409167736 +0300	commit: refactor of ingredient model
+d1aec825e943053d03ebc89b9cc2262eaba24107 659421e617cb8658ec19094b13e74c99342e5566 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409171557 +0300	commit: bootstrapped blog crud
+659421e617cb8658ec19094b13e74c99342e5566 05063ded740d69bef7c965dde9a4ffe732152220 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409220836 +0300	commit: post add, and display on frontend
+05063ded740d69bef7c965dde9a4ffe732152220 9a82103d1ba4702a90d6f01f4fbc57a265c62408 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409231550 +0300	commit: some basic style

@@ -1,0 +1,21 @@
+h2 
+    span
+        i.fa.fa-pen &nbsp;
+    Create Blog Post {{Usernames}} 
+
+.hero
+    form(name="blogPostForm" 
+        ng-controller="adminBlogController"
+        ng-submit="createPost()"
+        )
+            input.form-control(name="input" 
+                placeholder="Post Title"
+                ng-model="formData.title" required)
+            text-angular(ng-model="formData.body")
+            input(type="file" nv-file-select uploader="{FileUploader}" options="{Object}")
+            input.form-control.btn(type="submit" id="submitnew" value="Create")
+
+
+
+
+

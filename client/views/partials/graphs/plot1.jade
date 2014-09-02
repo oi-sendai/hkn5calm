@@ -1,0 +1,17 @@
+.plots
+	ul(ng-repeat="question in questions")
+		li.inline-list {{question.label}} [{{question.name}}]
+			ul(ng-repeat="answer in question.questions")
+				li.graph-key {{answer.value}} [{{answer.id}}]
+					span(ng-repeat="response in responses") 
+						div(ng-repeat="choice in response.questions") 
+							div(ng-if="choice.id === question.name") 
+								div(ng-if="choice.value === answer.id")
+									i.fa.fa-gear
+					
+							
+
+
+//chart(tstvalue="red")
+
+

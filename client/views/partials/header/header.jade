@@ -1,0 +1,29 @@
+.navbar.custom(data-ng-controller="NavCtrl")
+    .navbar-inner
+        .container-fluid
+            ul.nav.nav-tabs
+                li(active-nav)
+                    a(href='/') Home
+                li(active-nav)
+                    a(href='/blog/posts') Blog
+                li(active-nav)
+                    a(href='/shop/products') Book Shop
+                li(data-access-level='accessLevels.anon', active-nav)
+                    a(href='/listings/') Listings
+                li(active-nav)
+                    a(href='/contact') Contact
+                //li(data-access-level='accessLevels.anon', active-nav)
+                    //a(href='/recipes') Graphs
+                li(data-access-level='accessLevels.anon', active-nav='nestedTop')
+                    a(href='/private') Admin
+                li(data-access-level='accessLevels.user', active-nav)
+                    a(href='/admin') Admin
+                li(data-access-level='accessLevels.admin', active-nav)
+                    a(href='/admin') Admin
+                li
+                    a(ui-sref="instance-ticket.worklog({ instanceID:1, ticket.testnum:2 })")
+
+        .login.right(data-access-level='accessLevels.user' ng-controller="LoginCtrl")
+            span.label(data-ng-class='{"label-info": user.role.title == userRoles.user.title, "label-success": user.role.title == userRoles.admin.title}') {{ user.role.title }}
+                a(href="", data-ng-click="logout()")
+                    | Log out

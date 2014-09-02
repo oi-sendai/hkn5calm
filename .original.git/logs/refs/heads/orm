@@ -1,0 +1,15 @@
+0000000000000000000000000000000000000000 b3eb9fd9430216273fff875dfae36cdee4d04b20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409565024 +0300	branch: Created from HEAD
+b3eb9fd9430216273fff875dfae36cdee4d04b20 aaa825435273395b2100617bb4ccfda60ac74e97 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409573799 +0300	commit: param url routing
+aaa825435273395b2100617bb4ccfda60ac74e97 697dc20b60293ac2a4f7ecf61145fed2c560ab3d Not Cookied Workshop <eshoprworkshop@gmail.com> 1409573832 +0300	commit: param url routing
+697dc20b60293ac2a4f7ecf61145fed2c560ab3d 39fb8e83e7cbfee34aac7f51e07dc78f42f5b34e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409575722 +0300	commit: routing attached to sidebar links
+39fb8e83e7cbfee34aac7f51e07dc78f42f5b34e 0331de6242b0207b9194f58b248f3b2a5d70b17f Not Cookied Workshop <eshoprworkshop@gmail.com> 1409576214 +0300	commit: deeper nesting of ui views for flexibility of presentation and more scalable architecture
+0331de6242b0207b9194f58b248f3b2a5d70b17f b5ee95d9b90db3b72bacd02384f78e40f3170ab3 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409577397 +0300	commit: further scoping of controllers
+b5ee95d9b90db3b72bacd02384f78e40f3170ab3 1a2fedcbec7e5ee4bc108380da3751bc5dfc73b2 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409583488 +0300	commit: something works
+1a2fedcbec7e5ee4bc108380da3751bc5dfc73b2 7f17e709763c64ba070cd8da91ba7b5471d450c2 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409585233 +0300	commit: some ui output for weather directive
+7f17e709763c64ba070cd8da91ba7b5471d450c2 af428713c9b14ee688478131189f7689bd4da275 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409587286 +0300	commit: weather directive included on page
+af428713c9b14ee688478131189f7689bd4da275 64b4da11fbe987f6e0614d5efda0c87a2bc72fd1 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409587975 +0300	commit: actually did lose it, remanufactured
+64b4da11fbe987f6e0614d5efda0c87a2bc72fd1 026ddde27869f05f43aaf2fa1ebe8423ef7d77a0 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409594196 +0300	commit: this is a good commit
+026ddde27869f05f43aaf2fa1ebe8423ef7d77a0 65f66a854e3a83a18be7fbd6a6b3793592aba422 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409597795 +0300	commit: yet another commit message
+65f66a854e3a83a18be7fbd6a6b3793592aba422 a23a80b0421e35e1fd4545cec16916644ad16f43 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409609762 +0300	commit: listings work
+a23a80b0421e35e1fd4545cec16916644ad16f43 d16f682786f90a5e0d57ac34fb77c542027dc83c Not Cookied Workshop <eshoprworkshop@gmail.com> 1409655585 +0300	commit: almost works
+d16f682786f90a5e0d57ac34fb77c542027dc83c cc8a5d5627980b1d80cc85a512d6be2adc8be53c Not Cookied Workshop <eshoprworkshop@gmail.com> 1409656194 +0300	commit: this is cool

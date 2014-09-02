@@ -1,0 +1,19 @@
+
+.row
+    .col-md-8
+        div
+        //(ui-view="main")
+        .row
+            .col-md-6.col-md-offset-3
+                form(name="myForm"  ng-controller="contactController" ng-submit="createOrder()")
+                    input.form(type="text" placeholder="Name" ng-model="formData.name")
+                    input.form(type="text" placeholder="Email" ng-model="formData.email")
+                    input.textarea.form(type="textarea" placeholder="Message" ng-model="formData.message")
+                    button.form-control.btn(type="submit" id="submitnew" value="Create") Send
+
+                   
+    .col-md-4
+        Not Corp Plc
+        123 Forty Five Street
+        Sometown
+        Someplace

@@ -1,0 +1,206 @@
+doctype html
+html(lang='en', data-ng-app='eshoprShop')
+    head
+        meta(charset='utf-8')
+        title Not Cookied API
+        //- link(rel='stylesheet', href='/css/app.css')
+        link(href="/components/bootstrap/dist/css/bootstrap.min.css", rel="stylesheet")
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css", rel="stylesheet")
+        link(href="/components/font-awesome/css/font-awesome.min.css", rel="stylesheet")
+        link(href="/views/partials/page/ngview.css", rel="stylesheet")
+        link(href="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js", rel="stylesheet")
+        //- link(href="/views/partials/page/ngview-animate.css", rel="stylesheet")
+        //- link(href="/views/partials/partials.css", rel="stylesheet")
+        link(href="/js/graphs/graphs.css", rel="stylesheet")
+        link(href="/recipes/recipes.css", rel="stylesheet")
+        //link(href="/components/theme.css", rel="stylesheet")
+
+        // Blog Plugin
+        link(href="/js/blog/blog.css", rel="stylesheet")
+        //link(href="/js/blog/libs/colorpicker.css", rel="stylesheet")
+
+        // Shop
+        link(href="/js/shop/shop.css", rel="stylesheet")
+
+        // Listing
+        link(href="/js/listing/listing.css", rel="stylesheet")
+        //link(href="/js/listing/listing/libs/jquery-ui-1.11.1.custom/jquery-ui.css", rel="stylesheet")
+        //link(href="/js/listing/listing/libs/jquery-ui-1.11.1.custom/jquery-ui.theme.css", rel="stylesheet")
+        //link(href="/js/listing/listing/libs/jquery-ui-1.11.1.custom/jquery-ui.structure.css", rel="stylesheet")
+
+        // This is needed because Facebook login redirects add #_=_ at the end of the URL
+        script(type="text/javascript").
+            if (window.location.href.indexOf('#_=_') > 0) {
+                window.location = window.location.href.replace(/#.*/, '');
+            }
+    body(data-ng-cloak class="factory")
+
+        shopheader
+
+        .container.fluid.main-view-container
+            .main-view(data-ui-view autoscroll="false")
+
+        #alertBox.alert.alert-danger(data-ng-show="error")
+            button(type="button", class="close", data-ng-click="error = null;") &times;
+            strong Oh no!&nbsp;
+            span(data-ng-bind="error")
+
+        shopfooter
+
+        // Development
+        script(src='/components/angular/angular.js')
+        
+        // Production
+        //script(src='/components/angular/angular.js')
+        script(src='/components/angular-cookies/angular-cookies.min.js')
+        script(src='/components/angular-ui-router/release/angular-ui-router.min.js')
+        script(src='/components/angular-resource/angular-resource.js')
+        script(src='/components/angular-animate/angular-animate.js')
+        script(src='/components/angular-bootstrap/ui-bootstrap.js')
+        script(src='/components/angular-bootstrap/ui-bootstrap-tpls.js')
+        script(src='/components/jQuery/dist/jquery.js')
+        script(src='/components/gsap/src/uncompressed/TimelineMax.js')
+        script(src='/components/gsap/src/uncompressed/TweenMax.js')
+        script(src='/js/graphs/jquery.flot.js')
+        script(src='/components/angular-file-upload/angular-file-upload.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.js')
+        script(src='/js/routingConfig.js')
+        script(src='/js/app.js')
+        script(src='/js/services.js')
+        script(src='/js/controllers.js')
+        script(src='/js/filters.js')
+        script(src='/js/directives.js')
+        script(src='/js/api.js')
+        script(src='/js/cupboardController.js')
+        script(src='/js/page/pageController.js')
+        script(src='/js/clock/clockController.js')
+        script(src='/js/recipes/recipesController.js')
+        script(src='/js/graphs/graphsDirective.js')
+        script(src='/js/graphs/graphsController.js')
+        script(src='/js/graphs/questionsController.js')
+        script(src='/js/graphs/responseController.js')
+
+        // Blog Plugin
+        script(src='/js/blog/admin/adminBlogController.js')
+        script(src='/js/blog/public/publicBlogController.js')
+        script(src='/js/blog/libs/bootstrap-colorpicker.js')
+        script(src='/components/textAngular/src/textAngular.js')
+        script(src='/components/textAngular/src/textAngular-sanitize.js')
+        script(src='/components/textAngular/src/textAngularSetup.js')
+
+        // Shop Plugin
+        script(src='/js/shop/product/productController.js')
+        script(src='/js/shop/checkout/checkoutController.js')
+        script(src='/js/shop/contactController.js')
+        script(src='/js/shop/order/orderController.js')
+        script(src='/js/shop/libs/simpleCart.js')
+        script(src='/components/angular-cookies/angular-cookies.js')
+        script(src='/components/angular-local-storage/angular-local-storage.js')
+
+        // Listing Plugin
+        script(src="/js/listing/listingController.js")
+        script(src="/js/listing/uiController.js")
+        script(src="/js/listing/addListingController.js")
+        script(src="/js/listing/listingModel.js")
+        script(src="/js/listing/weatherDirective.js")
+        script(src="/components/simpleWeather/jquery.simpleWeather.js")
+        script(src="/js/listing/libs/sortable.js")
+        script(src="/js/listing/libs/jquery-ui-1.11.1.custom/jquery-ui.js")
+
+        //script(src="js/listing/tools/toolController.js")
+        //script(src="js/listing/libs/.js")
+
+        // Header
+        script(src='/js/header/headerDirective.js')
+        // Footer
+        script(src='/js/footer/footerDirective.js')
+
+        script(type="text/ng-template", id="header/header")
+            include views/partials/header/header
+        script(type="text/ng-template", id="footer/footer")
+            include views/partials/footer/footer
+
+        // Partial views... Load up front to make transitions smoother
+        script(type="text/ng-template", id="404")
+            include views/partials/404
+        script(type="text/ng-template", id="admin")
+            include views/partials/admin
+        script(type="text/ng-template", id="login")
+            include views/partials/login
+        script(type="text/ng-template", id="private/layout")
+            include views/partials/private/layout
+        script(type="text/ng-template", id="private/welcome")
+            include views/partials/private/welcome
+        script(type="text/ng-template", id="private/add")
+            include views/partials/private/add
+        script(type="text/ng-template", id="private/cupboard")
+            include views/partials/private/cupboard
+        script(type="text/ng-template", id="private/write")
+            include views/partials/private/write
+        script(type="text/ng-template", id="private/stock")
+            include views/partials/private/stock
+        script(type="text/ng-template", id="register")
+            include views/partials/register
+        script(type="text/ng-template", id="page/ngview")
+            include views/partials/page/ngview
+        script(type="text/ng-template", id="page/intro")
+            include views/partials/page/intro
+        script(type="text/ng-template", id="page/welcome")
+            include views/partials/page/welcome
+        script(type="text/ng-template", id="page/two")
+            include views/partials/page/two
+        script(type="text/ng-template", id="page/three")
+            include views/partials/page/three
+        script(type="text/ng-template", id="clock/clock")
+            include views/partials/clock/clock
+        script(type="text/ng-template", id="recipes/recipes")
+            include views/partials/recipes/recipes
+        script(type="text/ng-template", id="recipes/recipe")
+            include views/partials/recipes/recipe
+        script(type="text/ng-template", id="recipes/add")
+            include views/partials/recipes/add        
+        script(type="text/ng-template", id="graphs/plot1")
+            include views/partials/graphs/plot1
+        // Blog Plugin
+        script(type="text/ng-template", id="blog/public/blog")
+            include views/partials/blog/public/blog
+        script(type="text/ng-template", id="blog/public/sidebar")
+            include views/partials/blog/public/sidebar
+        script(type="text/ng-template", id="blog/public/list")
+            include views/partials/blog/public/list
+        script(type="text/ng-template", id="blog/admin/write")
+            include views/partials/blog/admin/write
+        // Shop
+        script(type="text/ng-template", id="shop/shop")
+            include views/partials/shop/shop
+        script(type="text/ng-template", id="shop/sidebar")
+            include views/partials/shop/sidebar
+        script(type="text/ng-template", id="shop/productlist")
+            include views/partials/shop/productlist
+        script(type="text/ng-template", id="shop/product")
+            include views/partials/shop/product
+        script(type="text/ng-template", id="shop/contact")
+            include views/partials/shop/contact
+        script(type="text/ng-template", id="shop/admin/orders")
+            include views/partials/shop/admin/orders
+        script(type="text/ng-template", id="shop/thanks")
+            include views/partials/shop/thanks
+        script(type="text/ng-template", id="shop/downloads")
+            include views/partials/shop/downloads
+        // Listings
+        script(type="text/ng-template", id="listing/layout")
+            include views/partials/listing/layout
+        script(type="text/ng-template", id="listing/ui")
+            include views/partials/listing/ui
+        script(type="text/ng-template", id="listing/add")
+            include views/partials/listing/add
+        //script(type="text/ng-template", id="listing
+        //script(type="text/ng-template", id="listing/tools/conditions")
+            //include views/partials/listing/tools/conditions
+        //script(type="text/ng-template", id="listing/tools/localities")
+            //include views/partials/listing/tools/localities
+        //script(type="text/ng-template", id="listing/tools/tool")
+            //include views/partials/listing/add
+        //script(type="text/ng-template" id="listing/tools/layout")
+            //include views/partials/listing/tools/layout
+

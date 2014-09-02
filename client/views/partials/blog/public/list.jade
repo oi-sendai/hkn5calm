@@ -1,0 +1,5 @@
+
+article.post(ng-repeat="post in posts")
+	h1 
+		a(href="{{post.slug}}") {{post.title}}
+	.post-body(ng-bind-html="post.body")

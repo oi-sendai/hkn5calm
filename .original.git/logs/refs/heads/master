@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 0e7318742579caf2e6d44769b76878b368cd955f unknown <Gabriel@Gabriel.(none)> 1408746547 +0300	clone: from git@github.com:eshopr/factory.git
+0e7318742579caf2e6d44769b76878b368cd955f f6d264a0521dda439e8286d3e2bbed5129ceca37 Not Cookied Workshop <eshoprworkshop@gmail.com> 1408811767 +0300	commit: flot plot added, graphs module created
+f6d264a0521dda439e8286d3e2bbed5129ceca37 06c7ed390c6d8500e15f1f4e2fbad24266f7a42b Not Cookied Workshop <eshoprworkshop@gmail.com> 1408814074 +0300	commit: data displayed by directory
+06c7ed390c6d8500e15f1f4e2fbad24266f7a42b c56d8e28e0cceb989c920cc9163088342d0af771 Not Cookied Workshop <eshoprworkshop@gmail.com> 1408952016 +0300	commit: some data modeling displayed in view
+c56d8e28e0cceb989c920cc9163088342d0af771 2dbc74f9aec1b7e7df53729f04270c5adbeb7ada Not Cookied Workshop <eshoprworkshop@gmail.com> 1408955213 +0300	commit: displaying api data in a meaningful way
+2dbc74f9aec1b7e7df53729f04270c5adbeb7ada 2d229eedd2718a03cce57149c83f6d59964f4c2c Not Cookied Workshop <eshoprworkshop@gmail.com> 1408959330 +0300	commit: it's a graph, sort of
+2d229eedd2718a03cce57149c83f6d59964f4c2c 405a388d0e4f11b27dce20bffb54f33a11453592 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409047725 +0300	commit: pure angular graphs
+405a388d0e4f11b27dce20bffb54f33a11453592 f8c5608826b1bb69f913d1437c2352a373546cda Not Cookied Workshop <eshoprworkshop@gmail.com> 1409119896 +0300	commit: finally understanding node module pattern
+f8c5608826b1bb69f913d1437c2352a373546cda bdcf6eeb47c16627d5dabf53ad78b97bc3bbf727 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409121795 +0300	commit: api route defined in module
+bdcf6eeb47c16627d5dabf53ad78b97bc3bbf727 84c60d817c0ff834ebb416501108ee7da70c88ca Not Cookied Workshop <eshoprworkshop@gmail.com> 1409142597 +0300	commit: makes call authorization refused
+84c60d817c0ff834ebb416501108ee7da70c88ca 97868c3ee766d46bd870ed3dfb55f8ee6be3c262 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409151288 +0300	commit: Recursion Blog Tutorial

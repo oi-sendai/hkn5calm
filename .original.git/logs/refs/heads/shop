@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 9a82103d1ba4702a90d6f01f4fbc57a265c62408 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409233191 +0300	branch: Created from HEAD
+9a82103d1ba4702a90d6f01f4fbc57a265c62408 185971dc91df5ecb74c3bfbdc87b06e9564b3e75 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409237188 +0300	commit: simpleCart.js checkout functionality added
+185971dc91df5ecb74c3bfbdc87b06e9564b3e75 f9a73fb8991b66968d3c524cfe6c3e5eedd6c246 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409266988 +0300	commit: debugging for beginners
+f9a73fb8991b66968d3c524cfe6c3e5eedd6c246 2542cd2f0e79646ca76ec867fb5f3362cd702ac2 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409267726 +0300	commit: unsecure file downloads
+2542cd2f0e79646ca76ec867fb5f3362cd702ac2 f419ded1f717f8d824144582f5e17d480f18aa8d Not Cookied Workshop <eshoprworkshop@gmail.com> 1409323477 +0300	commit: this is a commit message
+f419ded1f717f8d824144582f5e17d480f18aa8d 1831796e758cd3d4cccc164fda65ac1b1eaaba55 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409325380 +0300	commit: contact model added
+1831796e758cd3d4cccc164fda65ac1b1eaaba55 7cee01c15723843cb356cb53a8851b7adb6fad57 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409329295 +0300	commit: orders routing done
+7cee01c15723843cb356cb53a8851b7adb6fad57 4f2ddcdee7cc7bf91928a9c0b88b632374b1569c Not Cookied Workshop <eshoprworkshop@gmail.com> 1409329788 +0300	commit: orderController instantiated
+4f2ddcdee7cc7bf91928a9c0b88b632374b1569c 6d9d4f34921d48e3906828ca87937707afcf5c9e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409331793 +0300	commit: contact form added
+6d9d4f34921d48e3906828ca87937707afcf5c9e bfdc277bb14ff874e918fb813abce4b041944ce9 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409397435 +0300	commit: rework of user model
+bfdc277bb14ff874e918fb813abce4b041944ce9 1b1a90a24b204f85a0753bb056e0ac678f33ed7e Not Cookied Workshop <eshoprworkshop@gmail.com> 1409412920 +0300	commit: totally hacky method to pass simplecart data to cookie
+1b1a90a24b204f85a0753bb056e0ac678f33ed7e c2a590451dd5fd1d76ca581376b086c230428c20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409417325 +0300	commit: pass downloads array from checkout to success page
+c2a590451dd5fd1d76ca581376b086c230428c20 cb70c1e41fde8e4f16225da6f1f154e284f4cd18 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409422991 +0300	commit: getting functional i think
+cb70c1e41fde8e4f16225da6f1f154e284f4cd18 1fde2bf1a1f5653fbe71c77c7b3617b98a0a9b57 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409427669 +0300	commit: download link logic
+1fde2bf1a1f5653fbe71c77c7b3617b98a0a9b57 6b0b0cac902f44edc25b6aec59af9347c41f953a Not Cookied Workshop <eshoprworkshop@gmail.com> 1409433606 +0300	commit: frontend works
+6b0b0cac902f44edc25b6aec59af9347c41f953a 7031eba4ad4ce49eceef68c6c8c7c64ebb422253 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409446956 +0300	commit: bug fixes
+7031eba4ad4ce49eceef68c6c8c7c64ebb422253 b3eb9fd9430216273fff875dfae36cdee4d04b20 Not Cookied Workshop <eshoprworkshop@gmail.com> 1409509155 +0300	commit: gitignore test
