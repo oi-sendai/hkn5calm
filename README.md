@@ -1,10 +1,12 @@
-angular-client-side-auth
-========================
+###hkn5calm
 
-To run the application 
+## A robust friendly modular eCommerce and ORM boilerplate built on the MEAN technology stack
+[demo](http://hkn5calm-22100.onmodulus.net/)
 
-npm install && bower install && node server.js
-
-Data to be translated can be viewed by visiting
- http://localhost:8000/recipes/
-
+#### Todo's
+- Add image upload to blog
+- Add duplicate dependancy injection for grunt build
+- Write unit tests for clientside REST
+- Write unit tests for decoupled modules
+- Write some business logic
+- Write feature list
