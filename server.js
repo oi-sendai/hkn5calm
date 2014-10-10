@@ -54,7 +54,7 @@ passport.deserializeUser(User.deserializeUser);
 
 require('./server/routes.js')(app);
 
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 8080);
 http.createServer(app).listen(app.get('port'), function(){
     console.log("Express server listening on port " + app.get('port'));
 });
