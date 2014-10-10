@@ -1,34 +1,34 @@
-'use strict'; // my armpit cried
+'use strict';
 
 var eshoprShop = angular.module('eshoprShop', [
-    'ngCookies', 
+    // 'ngCookies', 
     'ui.router',
     'ngResource',
-    'ngAnimate',
-    'LocalStorageModule',
-    // 'angularFileUpload',
-    'ngCookies',
-    'cupboardController',
-    'pageController',
-    'clockController',
-    'recipesController',
-    'graphsController',
-    'graphsDirective',
-    'questionsController',
-    'publicBlogController',
-    'adminBlogController',
-    'sidebarBlogController',
-    'headerDirective',
-    'footerDirective',
-    'textAngular',
-    'productController',
-    'checkoutController',
-    'contactController',
-    'orderController',
+    // 'ngAnimate',
+    // 'LocalStorageModule',
+    // // 'angularFileUpload',
+    // 'ngCookies',
+    // 'cupboardController',
+    // 'pageController',
+    // 'clockController',
+    // 'recipesController',
+    // 'graphsController',
+    // 'graphsDirective',
+    // 'questionsController',
+    // 'publicBlogController',
+    // 'adminBlogController',
+    // 'sidebarBlogController',
+    // 'headerDirective',
+    // 'footerDirective',
+    // 'textAngular',
+    // 'productController',
+    // 'checkoutController',
+    // 'contactController',
+    // 'orderController',
     'listingController',
     'uiController',
     'addListingController',
-    'weatherDirective',
+    // 'weatherDirective',
     ]);
 
 eshoprShop.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', '$httpProvider', 
@@ -60,182 +60,11 @@ eshoprShop.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 
             data: {
                 access: access.public
             }
-        })
-        // Home
-        .state('anon.home', {
-            abstract: true,
-            url: '/',
-            templateUrl: 'page/ngview',
-        })
-        // Home Intro
-        .state('anon.home.intro', {
-            url: '',
-            templateUrl: 'page/intro'
-        })
-        // Home Intro
-        .state('anon.home.welcome', {
-            url: 'welcome/',
-            templateUrl: 'page/welcome'
-        })
-        // Home Welcome
-        .state('anon.home.two', {
-            url: 'two/',
-            templateUrl: 'page/two'
-        })
-        // Home Two
-        .state('anon.home.three', {
-            url: 'three/',
-            templateUrl: 'page/three'
-        })
-        // Home Three
-        .state('anon.login', {
-            url: '/login/',
-            templateUrl: 'login',
-            controller: 'LoginCtrl'
-        })
-        // Login
-        .state('anon.register', {
-            url: '/register/',
-            templateUrl: 'register',
-            controller: 'RegisterCtrl'
-        })
-        // Register
-        .state('anon.recipes', {
-            url: '/recipes/',
-            templateUrl: 'graphs/plot1',
-            controller: 'graphsController'
-        })
-        // Recipe
-        .state('anon.recipe', {
-            url: '/recipes/:recipe_id',
-            templateUrl: 'recipes/recipe',
-            controller: function($scope, $stateParams) {
-                $scope.foo = $stateParams.recipe_id;
-            }
         });
-
-    // Shop Routes
-    $stateProvider
-        .state('anon.shop', {
-            url: '/shop/',
-            templateUrl: 'shop/shop',
-            controller: 'productController'
-        })
-        .state('anon.shop.products', {
-            url: 'products/', 
-            // note how it begins with no slash for follow from its ancestor /shop/
-            controller: 'productController',
-            views: {
-                'main': {
-                    templateUrl: 'shop/productlist',
-                },
-                'sidebar': {
-                    templateUrl: 'shop/sidebar',
-                    controller: 'checkoutController'
-                    // templateUrl: 'shop/public/sidebar',
-                }
-            }
-        })
-        .state('anon.shop.thanks', {
-            url: 'thanks/',
-            views: {
-                'main': {
-                    templateUrl: 'shop/thanks',
-                    controller: 'checkoutController',
-                },
-                'sidebar': {
-                    templateUrl: 'shop/downloads',
-                    controller: 'checkoutController',
-                }
-            }
-        })
-        .state('anon.contact', {
-            url: '/contact/', 
-            templateUrl: 'shop/contact',
-            controller: 'contactController',
-        });
-        // .state('user.private.orders', {
-        //     url: 'orders/',
-        //     templateUrl: "shop/admin/orders",
-        //     controller: 'orderController',
-        //     data: {
-        //         access: access.private
-        //     }
-        // });
-
-    //Blog Routes
-    $stateProvider
-        .state('anon.blog', {
-            url: '/blog/',
-            templateUrl: 'blog/public/blog',
-            controller: 'publicBlogController'
-        })
-        .state('anon.blog.posts', {
-            url: 'posts/', 
-            // note how it begins with no slash for follow from its ancestor /blog/
-            controller: 'publicBlogController',
-            views: {
-                'main': {
-                    templateUrl: 'blog/public/list',
-                },
-                'sidebar': {
-                    templateUrl: 'blog/public/sidebar',
-                    controller: 'publicBlogController'
-                    // templateUrl: 'blog/public/sidebar',
-                }
-            }
-        })
-        .state('user.private.write', {
-            url: 'write/',
-            controller: 'adminBlogController',
-            templateUrl: 'blog/admin/write'
-        })
-    //Regular user routes
-    $stateProvider
-        .state('user', {
-            abstract: true,
-            template: '<ui-view autoscroll="false"/>',
-            data: {
-                access: access.public
-            }
-        })
-        // Private
-        .state('user.private', {
-            abstract: true,
-            url: '/private/',
-            templateUrl: 'private/layout'
-        })
-        // Private Welcome
-        .state('user.private.welcome', {
-            url: '',
-            templateUrl: 'private/welcome',
-            controller: 'pageController',
-        })
-        // Private AddRecipe
-        .state('user.private.addrecipe', {
-            url: 'addrecipe/',
-            templateUrl: 'recipes/add',
-            controller: 'recipesController',
-        })
-        // Private Cupboard
-        .state('user.private.cupboard', {
-            url: 'cupboard/',
-            templateUrl: 'private/cupboard',
-            controller: 'cupboardController'
-        })
-        // Private Admin
-        .state('user.private.admin', {
-            url: 'admin/',
-            templateUrl: 'private/stock',
-            data: {
-                access: access.admin
-            }
-        });
-
     // Listing routes
      $stateProvider
         .state('anon.listings', {
-          url: '/listings/',
+          url: '/',
           templateUrl: 'listing/layout',
           controller: 'listingController'
         })
@@ -257,32 +86,205 @@ eshoprShop.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 
               }
             }
         });
-        // .state('anon.listing.edit', {
-        //   views:{
-        //     'right':{
-        //       templateUrl:'listing/ui.jade',
-        //       controller: 'listingController'
-        //       }
-        //   }
-    // });
+        // Home
+        // .state('anon.home', {
+        //     abstract: true,
+        //     url: '/',
+        //     templateUrl: 'page/ngview',
+        // });
+//         // Home Intro
+//         .state('anon.home.intro', {
+//             url: '',
+//             templateUrl: 'page/intro'
+//         })
+//         // Home Intro
+//         .state('anon.home.welcome', {
+//             url: 'welcome/',
+//             templateUrl: 'page/welcome'
+//         })
+//         // Home Welcome
+//         .state('anon.home.two', {
+//             url: 'two/',
+//             templateUrl: 'page/two'
+//         })
+//         // Home Two
+//         .state('anon.home.three', {
+//             url: 'three/',
+//             templateUrl: 'page/three'
+//         })
+//         // Home Three
+//         .state('anon.login', {
+//             url: '/login/',
+//             templateUrl: 'login',
+//             controller: 'LoginCtrl'
+//         })
+//         // Login
+//         .state('anon.register', {
+//             url: '/register/',
+//             templateUrl: 'register',
+//             controller: 'RegisterCtrl'
+//         })
+//         // Register
+//         .state('anon.recipes', {
+//             url: '/recipes/',
+//             templateUrl: 'graphs/plot1',
+//             controller: 'graphsController'
+//         })
+//         // Recipe
+//         .state('anon.recipe', {
+//             url: '/recipes/:recipe_id',
+//             templateUrl: 'recipes/recipe',
+//             controller: function($scope, $stateParams) {
+//                 $scope.foo = $stateParams.recipe_id;
+//             }
+//         });
 
-    // Admin routes
-    $stateProvider
-        .state('admin', {
-            abstract: true,
-            template: '<ui-view autoscroll="false"/>',
-            data: {
-                access: access.admin
-            }
-        })
-        // Admin
-        .state('admin.admin', {
-            url: '/admin/',
-            templateUrl: 'admin',
-            controller: 'AdminCtrl'
-        });
+//     // Shop Routes
+//     $stateProvider
+//         .state('anon.shop', {
+//             url: '/shop/',
+//             templateUrl: 'shop/shop',
+//             controller: 'productController'
+//         })
+//         .state('anon.shop.products', {
+//             url: 'products/', 
+//             // note how it begins with no slash for follow from its ancestor /shop/
+//             controller: 'productController',
+//             views: {
+//                 'main': {
+//                     templateUrl: 'shop/productlist',
+//                 },
+//                 'sidebar': {
+//                     templateUrl: 'shop/sidebar',
+//                     controller: 'checkoutController'
+//                     // templateUrl: 'shop/public/sidebar',
+//                 }
+//             }
+//         })
+//         .state('anon.shop.thanks', {
+//             url: 'thanks/',
+//             views: {
+//                 'main': {
+//                     templateUrl: 'shop/thanks',
+//                     controller: 'checkoutController',
+//                 },
+//                 'sidebar': {
+//                     templateUrl: 'shop/downloads',
+//                     controller: 'checkoutController',
+//                 }
+//             }
+//         })
+//         .state('anon.contact', {
+//             url: '/contact/', 
+//             templateUrl: 'shop/contact',
+//             controller: 'contactController',
+//         });
+//         // .state('user.private.orders', {
+//         //     url: 'orders/',
+//         //     templateUrl: "shop/admin/orders",
+//         //     controller: 'orderController',
+//         //     data: {
+//         //         access: access.private
+//         //     }
+//         // });
+
+//     //Blog Routes
+//     $stateProvider
+//         .state('anon.blog', {
+//             url: '/blog/',
+//             templateUrl: 'blog/public/blog',
+//             controller: 'publicBlogController'
+//         })
+//         .state('anon.blog.posts', {
+//             url: 'posts/', 
+//             // note how it begins with no slash for follow from its ancestor /blog/
+//             controller: 'publicBlogController',
+//             views: {
+//                 'main': {
+//                     templateUrl: 'blog/public/list',
+//                 },
+//                 'sidebar': {
+//                     templateUrl: 'blog/public/sidebar',
+//                     controller: 'publicBlogController'
+//                     // templateUrl: 'blog/public/sidebar',
+//                 }
+//             }
+//         })
+//         .state('user.private.write', {
+//             url: 'write/',
+//             controller: 'adminBlogController',
+//             templateUrl: 'blog/admin/write'
+//         })
+//     //Regular user routes
+//     $stateProvider
+//         .state('user', {
+//             abstract: true,
+//             template: '<ui-view autoscroll="false"/>',
+//             data: {
+//                 access: access.public
+//             }
+//         })
+//         // Private
+//         .state('user.private', {
+//             abstract: true,
+//             url: '/private/',
+//             templateUrl: 'private/layout'
+//         })
+//         // Private Welcome
+//         .state('user.private.welcome', {
+//             url: '',
+//             templateUrl: 'private/welcome',
+//             controller: 'pageController',
+//         })
+//         // Private AddRecipe
+//         .state('user.private.addrecipe', {
+//             url: 'addrecipe/',
+//             templateUrl: 'recipes/add',
+//             controller: 'recipesController',
+//         })
+//         // Private Cupboard
+//         .state('user.private.cupboard', {
+//             url: 'cupboard/',
+//             templateUrl: 'private/cupboard',
+//             controller: 'cupboardController'
+//         })
+//         // Private Admin
+//         .state('user.private.admin', {
+//             url: 'admin/',
+//             templateUrl: 'private/stock',
+//             data: {
+//                 access: access.admin
+//             }
+//         });
 
 
+//         // .state('anon.listing.edit', {
+//         //   views:{
+//         //     'right':{
+//         //       templateUrl:'listing/ui.jade',
+//         //       controller: 'listingController'
+//         //       }
+//         //   }
+//     // });
+
+//     // Admin routes
+//     $stateProvider
+//         .state('admin', {
+//             abstract: true,
+//             template: '<ui-view autoscroll="false"/>',
+//             data: {
+//                 access: access.admin
+//             }
+//         })
+//         // Admin
+//         .state('admin.admin', {
+//             url: '/admin/',
+//             templateUrl: 'admin',
+//             controller: 'AdminCtrl'
+//         });
+
+
+    // BOILERPLATE USER MODEL -angular-client-side-auth
     $urlRouterProvider.otherwise('/404');
 
     // FIX for trailing slashes. Gracefully "borrowed" from https://github.com/angular-ui/ui-router/issues/50
@@ -329,22 +331,22 @@ eshoprShop.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 
 
 }])
 
-.run(['$rootScope', '$state', 'Auth', function ($rootScope, $state, Auth) {
+// .run(['$rootScope', '$state', 'Auth', function ($rootScope, $state, Auth) {
 
-    $rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams) {
-        if (!Auth.authorize(toState.data.access)) {
-            $rootScope.error = "Seems like you tried accessing a route you don't have access to...";
-            event.preventDefault();
+//     $rootScope.$on("$stateChangeStart", function (event, toState, toParams, fromState, fromParams) {
+//         if (!Auth.authorize(toState.data.access)) {
+//             $rootScope.error = "Seems like you tried accessing a route you don't have access to...";
+//             event.preventDefault();
             
-            if(fromState.url === '^') {
-                if(Auth.isLoggedIn()) {
-                    $state.go('user.home');
-                } else {
-                    $rootScope.error = null;
-                    $state.go('anon.home');
-                }
-            }
-        }
-    });
+//             if(fromState.url === '^') {
+//                 if(Auth.isLoggedIn()) {
+//                     $state.go('user.home');
+//                 } else {
+//                     $rootScope.error = null;
+//                     $state.go('anon.home');
+//                 }
+//             }
+//         }
+//     });
 
-}]);
+// }]);
